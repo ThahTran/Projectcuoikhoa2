@@ -1,0 +1,122 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li{
+    list-style: none;
+    padding: 30px;
+    margin: 10px;
+}
+.navigation ul li a{
+    color: black;
+    text-decoration: none;
+}
+.login-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.login-cart .login{
+    margin: 20px;
+
+}
+.login-cart .cart{
+    margin: 20px;
+}
+.login-cart .login button{
+    width: 147px;
+    height: 73px;
+    border: none;
+    border-radius: 70px;
+    font-size: 32px;
+}
+.login-cart .login button a{
+    color: black;
+    text-decoration: none;
+}
+.popular{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.popular .products{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.popular .products div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.popular .products .product{
+    width: 400px;
+    height: 600px;
+    
+}
+img{
+    width: 100%;
+}
+
+  .footer {
+    margin-top: 100px;
+    background-color: #333; /* Màu nền của footer */
+    color: #fff; /* Màu chữ trong footer */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và mép của footer */
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff; /* Màu chữ của liên kết trong footer */
+    text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Gạch chân xuất hiện khi hover liên kết */
+  }
+  .container .header .logo{
+    padding: 20px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.primary {
+    color: #007bff;
+}
